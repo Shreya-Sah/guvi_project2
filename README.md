@@ -29,6 +29,7 @@ The workflow includes data preprocessing, training a **Linear Regression** model
 | `student_scores.csv`     | Dataset containing columns: Hours Studied, Attendance, Final Score. |
 | `student_dashboard.xlsx` | Interactive Excel dashboard with charts, dropdowns, prediction formula, and formatting. |
 | `README.md`              | This documentation file. |
+| `presentation.pdf`       | Final project presentation slides (converted to PDF). |
 
 ---
 
@@ -95,5 +96,6 @@ This model is built on a **limited dataset** and may not generalize to all stude
 **Shreya Sah**  
 GitHub: [Shreya-Sah](https://github.com/Shreya-Sah)  
 Feel free to reach out for questions or feedback!  
+
 
 
