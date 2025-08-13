@@ -35,7 +35,7 @@ The workflow includes data preprocessing, training a **Linear Regression** model
 
 ## Technologies Used
 - **Python Packages**: pandas, numpy, matplotlib, seaborn, scikit-learn  
-- **Excel Tools**: Data Validation (dropdowns), Scatter Charts, Trendlines, Conditional Formatting, Formulas  
+- **Excel Tools**: Data Validation (dropdowns), Trendlines, Conditional Formatting, Formulas  
 
 ---
 
@@ -96,6 +96,7 @@ This model is built on a **limited dataset** and may not generalize to all stude
 **Shreya Sah**  
 GitHub: [Shreya-Sah](https://github.com/Shreya-Sah)  
 Feel free to reach out for questions or feedback!  
+
 
 
 
