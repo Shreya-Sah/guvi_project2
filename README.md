@@ -1,90 +1,91 @@
-📊 Student Score Prediction – GUVI Project 2
-📌 Project Overview
-This project predicts a student’s Final Score based on:
+#  Student Score Prediction – GUVI Project 2
 
-Hours Studied
+---
 
-Attendance Percentage
+##  Table of Contents
+- [Project Overview](#project-overview)  
+- [Files in the Repository](#files-in-the-repository)  
+- [Technologies Used](#technologies-used)  
+- [Model Development Workflow](#model-development-workflow)  
+- [Excel Dashboard Features](#excel-dashboard-features)  
+- [How to Use](#how-to-use)  
+- [Model Performance](#model-performance)  
+- [Ethical & Bias Awareness](#ethical--bias-awareness)  
+- [Author](#author)  
 
-The workflow involves data preprocessing, building a Linear Regression model, evaluating its accuracy, and creating an interactive Excel dashboard where users can select values from dropdown menus to see predicted scores.
+---
 
-| File Name                   | Description                                                                                                    |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Guvi\_project2.ipynb**    | Jupyter/Colab notebook containing data loading, cleaning, visualization, model training, and evaluation.       |
-| **student\_scores.csv**     | Dataset containing Hours Studied, Attendance (%), and Final Scores.                                            |
-| **student\_dashboard.xlsx** | Interactive Excel dashboard with scatter plots, trendlines, dropdown inputs, and automatic prediction updates. |
-| **README.md**               | Project documentation.                                                                                         |
+## Project Overview  
+Predict a student's **Final Score** using **Hours Studied** and **Attendance Percentage**.  
+The workflow includes data preprocessing, training a **Linear Regression** model, evaluating its accuracy, and building an interactive **Excel dashboard**.
 
-🛠️ Technologies Used
-Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
+---
 
-Excel (Data Validation, Scatter Plots, Trendlines, Conditional Formatting)
+## Files in the Repository  
+| File Name                | Description |
+|--------------------------|-------------|
+| `guvi_project2.ipynb`    | Python notebook (Colab/Jupyter) for data cleaning, visualization, model building, evaluation. |
+| `student_scores.csv`     | Dataset containing columns: Hours Studied, Attendance, Final Score. |
+| `student_dashboard.xlsx` | Interactive Excel dashboard with charts, dropdowns, prediction formula, and formatting. |
+| `README.md`              | This documentation file. |
 
-Linear Regression for prediction
+---
 
-📈 Model Development Steps
-Data Import & Cleaning
+## Technologies Used
+- **Python Packages**: pandas, numpy, matplotlib, seaborn, scikit-learn  
+- **Excel Tools**: Data Validation (dropdowns), Scatter Charts, Trendlines, Conditional Formatting, Formulas  
 
-Used pandas to load student_scores.csv
+---
 
-Removed missing values if any
+## Model Development Workflow
+1. **Load & Clean Data**  
+   - Import `student_scores.csv` using pandas and handle missing values.  
+2. **Exploratory Data Analysis**  
+   - Visualized relationships using `pairplot`.  
+3. **Train Linear Regression Model**  
+   - Feature inputs: Hours Studied, Attendance.  
+4. **Evaluate**  
+   - Metrics: R² (goodness of fit), MAE (average error).  
+5. **Make Prediction**  
+   - Test with custom inputs and display predicted score.
 
-Exploratory Data Analysis
+---
 
-Scatter plots and pair plots to observe relationships between variables
+## Excel Dashboard Features
+- Two **Scatter Plots**:
+  - *Hours Studied vs Final Score*  
+  - *Attendance vs Final Score*  
+- **Trendlines** with equations and R² values.  
+- **Dropdown menus** to select Hours & Attendance.  
+- **Automatic Prediction** updates using model formula.  
+- **Conditional Formatting** to highlight low scores or attendance.  
+- Transparent **1-line note** about model limitations.
 
-Model Training
+---
 
-Used LinearRegression from scikit-learn
+## How to Use
+1. Open `guvi_project2.ipynb` in Colab or Jupyter; run all cells to build and evaluate the model.  
+2. Open `student_dashboard.xlsx` in Excel:  
+   - Choose values from dropdowns in I2/I3.  
+   - Prediction updates automatically in I4.  
+   - View charts and model accuracy metrics.
 
-Features: Hours Studied & Attendance (%)
+---
 
-Target: Final Score
+## Model Performance
+- **R² Score**: Indicates how well inputs explain the variance in final scores.  
+- **Mean Absolute Error (MAE)**: Shows average prediction error in points.
 
-Evaluation Metrics
+*(Insert actual values from your model here)*
 
-R² Score: Measures how well the model fits the data
+---
 
-MAE (Mean Absolute Error): Measures average prediction error
+## Ethical & Bias Awareness
+This model is built on a **limited dataset** and may not generalize to all student populations. Real-world factors (e.g., motivation, environment, personal background) are not included. Use predictions as **approximations only**.
 
-📊 Excel Dashboard Features
-Two scatter plots:
+---
 
-Hours Studied vs Final Score
-
-Attendance vs Final Score
-
-Trendlines with R² values displayed
-
-Dropdown menus to choose Hours Studied & Attendance %
-
-Automatic predicted score update in the dashboard
-
-Conditional formatting for better visualization
-
-Ethical note: Model is based on limited sample data and may not reflect all real-world scenarios
-
-🚀 How to Use
-1️⃣ Run the Model in Google Colab / Jupyter Notebook
-Open Guvi_project2.ipynb
-
-Run all cells to see data preprocessing, model training, and accuracy results
-
-2️⃣ Use the Excel Dashboard
-Open student_dashboard.xlsx
-
-Select values for Hours Studied and Attendance % from the dropdown menus
-
-The Predicted Score will update automatically
-
-View scatter plots and model accuracy (R² score)
-
-📌 Ethical & Bias Awareness
-This model is trained on a small dataset and may not generalize to all student populations.
-Factors like study environment, mental health, and teaching quality are not considered.
-Predictions should be used as approximations only.
-
-👩‍💻 Author
-Shreya Sah
-🔗 GitHub: Shreya-Sah
-
+## Author
+**Shreya Sah**  
+GitHub: [Shreya-Sah](https://github.com/Shreya-Sah)  
+Feel free to reach out for questions or feedback!  
