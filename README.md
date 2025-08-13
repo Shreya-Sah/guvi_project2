@@ -1,13 +1,14 @@
-#  Student Score Prediction – GUVI Project 2
+# 🎯 Student Score Prediction – GUVI Project 2
 
 ---
 
-##  Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)  
 - [Files in the Repository](#files-in-the-repository)  
 - [Technologies Used](#technologies-used)  
 - [Model Development Workflow](#model-development-workflow)  
 - [Excel Dashboard Features](#excel-dashboard-features)  
+- [Dashboard Screenshot](#dashboard-screenshot)  
 - [How to Use](#how-to-use)  
 - [Model Performance](#model-performance)  
 - [Ethical & Bias Awareness](#ethical--bias-awareness)  
@@ -63,11 +64,16 @@ The workflow includes data preprocessing, training a **Linear Regression** model
 
 ---
 
+## Dashboard Screenshot
+![Dashboard Screenshot](dashboard.png)
+
+---
+
 ## How to Use
 1. Open `guvi_project2.ipynb` in Colab or Jupyter; run all cells to build and evaluate the model.  
 2. Open `student_dashboard.xlsx` in Excel:  
-   - Choose values from dropdowns in I2/I3.  
-   - Prediction updates automatically in I4.  
+   - Choose values from dropdowns in **I2/I3**.  
+   - Prediction updates automatically in **I4**.  
    - View charts and model accuracy metrics.
 
 ---
@@ -89,3 +95,5 @@ This model is built on a **limited dataset** and may not generalize to all stude
 **Shreya Sah**  
 GitHub: [Shreya-Sah](https://github.com/Shreya-Sah)  
 Feel free to reach out for questions or feedback!  
+
+
